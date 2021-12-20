@@ -105,6 +105,7 @@ USE_NS=1
 USE_LUA="USE_LUA=1"
 %endif
 
+USE_PROMETHEUS=
 %if 0%{_use_prometheus}
 USE_PROMETHEUS="USE_PROMEX=1"
 %endif
